@@ -102,3 +102,12 @@ Note: #3 was done first to establish folder/file settings for the mobile setup
 #### #6
 - Removed /cypress folder
 
+
+## [1.1.0] - 2022-08-30
+Added Docker configuration files
+
+### Added
+- Dockerfile.dev - Docker File for development container
+- .dockerignore - File used for ignoring files while copying files during image build.
+- README.md - Added instructions for docker image.
+
