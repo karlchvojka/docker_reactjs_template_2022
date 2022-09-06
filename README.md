@@ -4,6 +4,12 @@ This is a CRA Alternative to be used to bootstrap new projects.
 
 The application has been pre-configured for a dev based Docker image.
 
+This project now runs inside docker containers, and also runs a base gitlab ci/cd.
+
+NOTE: The Test Job has been commented out within .gitlab-ci.yml.
+This was done because there are no tests built into this template at this point.
+It can be uncommented and used once npm run test actually does something.
+
 ## Requirements
 Make sure you are running the following:  
 Node v18.7.0+  

@@ -111,3 +111,8 @@ Added Docker configuration files
 - .dockerignore - File used for ignoring files while copying files during image build.
 - README.md - Added instructions for docker image.
 
+## [1.1.1] - 2022-09-06
+Added Gitlab CI/CD abilities
+
+### Added
+- .gitlab-ci.yml
