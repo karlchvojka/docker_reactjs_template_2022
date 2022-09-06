@@ -1,10 +1,14 @@
-# ReactJS Template 2022
-This is a CRA Alternative to be used to bootstrap new projects.  
+# Dockerized ReactJS Template 2022
+
+This is a CRA Alternative to be used to bootstrap new projects.
+
+The application has been pre-configured for a dev based Docker image.
 
 ## Requirements
 Make sure you are running the following:  
 Node v18.7.0+  
-Npm v8.15.0+
+Npm v8.15.0+  
+Docker 20.10.17+
 
 ## Packages installed and configured
 As this is a template, only the basics are installed:
@@ -16,6 +20,10 @@ As this is a template, only the basics are installed:
 ## Getting started
 Fork repo into a directory, and cd into it.
 
+___
+## ReactJS commands
+___
+
 ### Installing
 Run `npm install`
 
@@ -26,3 +34,12 @@ This will start the app, via webpack, open your default browser, and serve it to
 
 ### Building the app
 Run `npm run build`
+___
+## Docker Commands:
+___
+
+## Build/start Dev environment.
+docker-compose up -d --build
+
+## Build/start Prod environment.
+docker-compose -f docker-compose.prod.yml up -d --build
